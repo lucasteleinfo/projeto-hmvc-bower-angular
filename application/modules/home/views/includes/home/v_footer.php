@@ -2,12 +2,16 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
-<script src="<?php echo base_url();?>assets/js/jquery-1.11.3.min.js"></script>
-<script src="<?php echo base_url();?>assets/js/jquery-ui.min.js"></script>
-<script src="<?php echo base_url();?>assets/js/bootstrap.min.js"></script>
-<script src="<?php echo base_url();?>assets/js/jquery.mask.min.js"></script>
-<script src="<?php echo base_url();?>assets/js/Chart.min.js"></script>
-<script src="<?php echo base_url();?>assets/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
-<script src="<?php echo base_url();?>assets/js/main.js"></script>
+<script src="<?php echo base_url();?>bower_components/jquery/dist/jquery.min.js"></script>
+<script src="<?php echo base_url();?>bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script src="<?php echo base_url();?>bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="<?php echo base_url();?>bower_components/Chart.js/Chart.min.js"></script>
+<script src="<?php echo base_url();?>bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
+
+<!-- Angular -->
+<script src="<?php echo base_url();?>custom_components/app/app.js"></script>
+<script src="<?php echo base_url();?>custom_components/app/config.js"></script>
+
+<script src="<?php echo base_url();?>custom_components/controllers/home-controller.js"></script>
 </body>
 </html>
