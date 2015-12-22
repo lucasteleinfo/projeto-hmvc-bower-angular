@@ -4,6 +4,7 @@
 	HomeCtrl.$inject = ['$scope', 'APP_SETTINGS'];
 
 	function HomeCtrl($scope, APP_SETTINGS) {
-        
+        $scope.descricao = 'Projeto';
+        $scope.infor = '';
     };
 })();

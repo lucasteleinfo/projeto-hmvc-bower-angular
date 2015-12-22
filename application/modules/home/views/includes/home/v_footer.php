@@ -9,9 +9,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="<?php echo base_url();?>bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
 
 <!-- Angular -->
+<script src="<?php echo base_url();?>bower_components/angular/angular.min.js"></script>
+
 <script src="<?php echo base_url();?>custom_components/app/app.js"></script>
 <script src="<?php echo base_url();?>custom_components/app/config.js"></script>
 
-<script src="<?php echo base_url();?>custom_components/controllers/home-controller.js"></script>
+<script src="<?php echo base_url();?>custom_components/app/controllers/home-controller.js"></script>
 </body>
 </html>
